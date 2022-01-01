@@ -6437,15 +6437,6 @@ native_american = {
         last_names = { Arawá Arawak Bororo Gê Guayaná Jeikó Kaingang Kalinago Kamakán
         Karajá Kayapó Matsés Maxakalí Purí Timbira Xavante Xerente Xokieng Yanomamö }
     }
-    itonama = {
-        color = {255 10 165}
-        first_names = { Aníbal Augusto Bento Bernardo César Daniel David Donato Duarte Ernesto
-        Estevão Fernando Francisco Gabriel Graciano Hugo João Julio Leopoldo Lucas
-        Miguel Nuno Óscar Rafael Roberto Sebastião Sergio Simão Vasco Zeferino }
-
-        last_names = { Arawá Arawak Bororo Gê Guayaná Jeikó Kaingang Kalinago Kamakán
-        Karajá Kayapó Matsés Maxakalí Purí Timbira Xavante Xerente Xokieng Yanomamö }
-    }
     movima = {
         color = {10 255 165}
         first_names = { Aníbal Augusto Bento Bernardo César Daniel David Donato Duarte Ernesto
@@ -8310,22 +8301,156 @@ native_american = {
         }
     }
 	
+	####Bolivia####
+	araona = {
+        color = {240 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	baure = {
+        color = {210 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	besiro = {
+        color = {180 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	cavinen = {
+        color = {150 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	chacobo = {
+        color = {120 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	chiman = {
+        color = {90 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	waraza = {
+        color = {60 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	guarayu = {
+        color = {30 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	itonama = {
+        color = {0 130 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	kallawaya = {
+        color = {230 120 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	mayopa = {
+        color = {230 90 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	moxo = {
+        color = {230 60 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	itene = {
+        color = {230 30 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	pukina = {
+        color = {230 0 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	siriono = {
+        color = {230 130 80}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	takana = {
+        color = {230 130 110}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	uyu = {
+        color = {230 130 140}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	toromono = {
+        color = {230 130 170}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	yawanawa = {
+        color = {230 130 200}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	ayoreo = {
+        color = {230 130 230}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	wichi = {
+        color = {30 30 250}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
 	
-	#############
-	kongo = {
-        color = {245 255 160}
-        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-        }
-        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-        }
-    }
-	miskito = {
-        color = {220 70 40}
-        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-        }
-        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-        }
-    }
+	####Argentina####
 	raizal = {
         color = {20 70 90}
         first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
@@ -8489,6 +8614,505 @@ native_american = {
 			Carripilun Llanguelen Colipí Lafquenche
 		}
 	}
+	
+	####Chile####
+	rapanui = {
+        color = {192 172 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	poya = {
+        color = {92 72 162}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	mapuche = {
+        color = {92 172 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	cunco = {
+        color = {152 72 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	
+	####Uruguay####
+	chana = {
+        color = {102 92 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	charrua = {
+        color = {212 72 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	guenoa = {
+        color = {152 132 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	
+	####Paraguay####
+	ache = {
+        color = {102 102 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	chamacoco = {
+        color = {152 192 92}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	manjuy = {
+        color = {192 102 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	guana = {
+        color = {252 32 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	lengua = {
+        color = {52 132 162}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	maka = {
+        color = {12 132 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	nivacle = {
+        color = {152 12 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	chiripa = {
+        color = {152 132 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	pai_tavy = {
+        color = {152 82 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	sanapana = {
+        color = {152 132 242}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	toba = {
+        color = {252 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	
+	####Guianas####
+	macuxi = {
+        color = {252 232 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	palikur = {
+        color = {252 32 222}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	wayana = {
+        color = {22 232 102}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	wayapi = {
+        color = {202 82 82}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	emerillo = {
+        color = {192 2 52}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	akurio = {
+        color = {90 60 60}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	mawayana = {
+        color = {152 152 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	sikiana = {
+        color = {252 32 12}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	lokono = {
+        color = {252 32 72}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	tiriyo = {
+        color = {92 72 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	waiwai = {
+        color = {82 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	akawayo = {
+        color = {152 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	wapishana = {
+        color = {22 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	
+	####Venezuela####
+	yanomamo = {
+        color = {22 202 32}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	paraujano = {
+        color = {22 232 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	warekena = {
+        color = {22 132 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	panare = {
+        color = {122 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	japreria = {
+        color = {222 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	pemon = {
+        color = {52 82 82}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	mapoyo = {
+        color = {92 32 92}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	yekuana = {
+        color = {22 92 92}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	yanam = {
+        color = {92 92 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	sanuma = {
+        color = {92 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	joti = {
+        color = {22 92 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	jirajana = {
+        color = {22 32 92}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	guamontey = {
+        color = {22 32 62}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	arutani = {
+        color = {22 62 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	jukude = {
+        color = {62 32 2}
+		first_names = {
+			Concalcac Pichivele Yahati Doenoyal
+		}
+		last_names = {
+			Carripilun Llanguelen Colipí Lafquenche
+		}
+	}
+	
+	####Brazil (welcome to the wall of text, by Pauil)####
+	yaminawa = { color = {95 45 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	xanenawa = { color = {215 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kaxarari = { color = {155 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	latunde = { color = {65 35 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	sabane = { color = {135 55 0} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	yabuti = { color = {25 55 0} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	karitiana = { color = {135 255 60} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	arua = { color = {235 215 60} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kawahiva = { color = {245 255 240} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	tupari = { color = {195 15 10} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	surui = { color = {25 255 80} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	wayoro = { color = {245 25 114} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	emawene_nawe = { color = {0 0 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	monde = { color = {245 5 1} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	ariak = { color = {5 255 0} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	nambikwara = { color = {95 55 60} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	rikboktsa = { color = {24 5 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	iranxe = { color = {5 25 100} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	bororo = { color = {15 65 60} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	karaja = { color = {245 255 10} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	ofaie = { color = {185 211 170} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	terena = { color = {135 45 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	quiniquinao = { color = {241 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	guaikuru = { color = {245 211 110} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kaiwa = { color = {135 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	xokleng = { color = {245 135 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kaingang = { color = {25 2 60} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	krenak = { color = {245 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	maxakali = { color = {245 95 110} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	aimore = { color = {45 95 190} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	apinaje = { color = {195 45 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	karipuna = { color = {245 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	galibi = { color = {245 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	wayampi = { color = {245 245 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	tremembe = { color = {45 31 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	mawe = { color = {245 5 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	akwawa = { color = {2 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	asurini = { color = {5 245 0} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	parakana = { color = {25 55 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kayabi = { color = {25 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	anambe = { color = {245 25 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	guaja = { color = {245 255 60} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	zoe = { color = {245 255 16} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	turiwara = { color = {245 85 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kayapo = { color = {245 195 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	munduruku = { color = {115 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	juruna = { color = {145 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	apurina = { color = {215 155 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	katukina = { color = {245 155 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	mura = { color = {245 255 100} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	waimiri = { color = {245 205 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	parukoto = { color = {205 255 160} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	amanaye = { color = {215 25	10} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	tapayuna = { color = {5 151 11} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	kisejde = { color = {5 245 10} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+	mebengokre = { color = {255 55 190} first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez } last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet Rerard } }
+
+	#############
+	kongo = {
+        color = {245 255 160}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	miskito = {
+        color = {220 70 40}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	
 }
 
 american_cultures = {
