@@ -882,6 +882,43 @@ country_event = {
             ideology = { value = liberal factor = 0.2 }
             consciousness = 2
         }
+    }      
+}	 
+
+
+country_event = {
+	id = 127840
+	title = "Green Hell"
+	desc = "green_hell_desc"
+	picture = "green_hell"
+	fire_only_once = yes
+    mean_time_to_happen = { days = 1 }
+
+	trigger = { 
+        year = 1830
+        tag = BRZ 
     }
-        
-}	   
+	
+	option = {
+        name = "O Brazil adentra o Inferno Verde."
+		2410 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2415 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2413 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2600 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2411 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2412 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2408 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2405 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2402 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2403 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2532 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2404 = { add_province_modifier = { name = green_hell duration = -1 } }
+		3381 = { add_province_modifier = { name = green_hell duration = -1 } }
+		3382 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2549 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2407 = { add_province_modifier = { name = green_hell duration = -1 } }
+		3359 = { add_province_modifier = { name = green_hell duration = -1 } }
+		2401 = { add_province_modifier = { name = green_hell duration = -1 } }
+	}
+}
+

@@ -4975,3 +4975,10 @@ parana_development_forever = {
     farm_rgo_eff = 0.5
 	icon = 19
 }
+
+green_hell = {
+    immigrant_attract = -5
+    farm_rgo_eff = -0.5
+    mine_rgo_eff = -0.5
+    life_rating = -0.5
+}
