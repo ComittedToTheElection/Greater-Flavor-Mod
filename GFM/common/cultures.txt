@@ -3636,23 +3636,84 @@ african_diaspora_cultures = {
         Otelo Paim Pandeiro Peçanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
     }
     afro_french = {
-        color = {24 44 49}
+        color = { 17 39 56 } #{24 44 49}
         first_names = { Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
-            Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
+            Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François 
             Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
             Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
-            Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum }
+            Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum 
+            Adémar Adrien Aimery Alain Aldéric Aldebert Alphonse Amédée Amaury Ancel André Antoine Archambaud Arnaud Arnault Arnoul Aubry Aymar
+            Bérenger Barthélémi Baudouin Benoît Bernard Bertrand Bohemond Boson Bouchard
+            Centule Charles Clotaire
+            Ebbon Enguerrand Eudes Eustache Evrard
+            Édouard Érrard Étienne
+            Foulques Frédéric François
+            Géraud Gaucelin Gaucher Gauthier Geoffroi Gilbert Gilles Godefroi Guichard Guiges Guilhem Guillaume Guy
+            Hélie Hamelin Henri Herbert Hildebert Hugues Humbert
+            Jacques Jaspert Jaufré Jean Jobert Jourdain Julien
+            Léon Léonard Lothaire Louis Loup
+            Mathieu Marcel Maurice
+            Nicolas
+            Ogier Onfroi Orson Othon
+            Payen Philippe Pierre
+            Raimbaut Raoul Raymond Raynaud Renaud Richard Robert Robin Roger Rorgues Roubaud
+            Savary Sigismond Simon
+            Thiébaut Thibault Thierry Thomas
+            Valeran
+            Yves
+        }
 
-            last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+        last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
             Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
             Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
             Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
-            Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
+            Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+            Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle"
+            "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+            Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+            Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+            Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor Pétion Dessalines Louverture Boucher
+        }
     }
     mulatto = {
         color = { 30 30 80 }
-        first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas Jobert Herbert }
-        last_names = { Anthoine "Baraguey d’Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki Bugeaud Boucher Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d’Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans Foch Forey "Franchet d’Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert Jaurès Joffre Lebouef Lyautey Murat "Ney d’Elchingen" Nivelle Péllissier Petain Vaillant }
+        first_names = { Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
+            Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François 
+            Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+            Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+            Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum 
+            Adémar Adrien Aimery Alain Aldéric Aldebert Alphonse Amédée Amaury Ancel André Antoine Archambaud Arnaud Arnault Arnoul Aubry Aymar
+            Bérenger Barthélémi Baudouin Benoît Bernard Bertrand Bohemond Boson Bouchard
+            Centule Charles Clotaire
+            Ebbon Enguerrand Eudes Eustache Evrard
+            Édouard Érrard Étienne
+            Foulques Frédéric François
+            Géraud Gaucelin Gaucher Gauthier Geoffroi Gilbert Gilles Godefroi Guichard Guiges Guilhem Guillaume Guy
+            Hélie Hamelin Henri Herbert Hildebert Hugues Humbert
+            Jacques Jaspert Jaufré Jean Jobert Jourdain Julien
+            Léon Léonard Lothaire Louis Loup
+            Mathieu Marcel Maurice
+            Nicolas
+            Ogier Onfroi Orson Othon
+            Payen Philippe Pierre
+            Raimbaut Raoul Raymond Raynaud Renaud Richard Robert Robin Roger Rorgues Roubaud
+            Savary Sigismond Simon
+            Thiébaut Thibault Thierry Thomas
+            Valeran
+            Yves
+        }
+
+        last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+            Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+            Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
+            Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
+            Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+            Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle"
+            "de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+            Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+            Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+            Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor Pétion Dessalines Louverture Boucher
+        }
     }
     kreol = {
         color = { 63 32 10 }
@@ -4042,9 +4103,45 @@ east_african = {
     unit = AfricanGC
     amhara = {
         color = {88 142 37}
-        first_names = { Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi Abebe Fakirta Adis Kassa Menelik }
+        first_names = { Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi Abebe Fakirta Adis Kassa Menelik
+            Abai Abebe Afework Alexander Aman Amare Assefa Atoberhan Azmera
+            Bekele Benaim Berhanu Berhanua Berihun Berta Bworo
+            Dahnay Daniachew Dawit Demissie Desta
+            Eremias Ezana
+            Fasilidas Fethee
+            Gabra Gebereal Gebre Getachew Geteye Girma Gondar
+            Hackeem Haeran Hagos Hakeem Hakiem Hakim Hakym
+            Iskander Iskinder Iyasu
+            Jima
+            Kafa Kaleb Kelile Kelyle Kifle
+            Lebna Lema Loua
+            Mamo Mekonnen Melaku Mengesha Merille Miruts
+            Negash Negasi Negus
+            Ogbae Ogbai Oromo
+            Rahad
+            Selassie Semer Semere Sisay
+            Tamirat Tariku Taye Tefere Teferi Teka Tekle Tengene Teruworq Tesfaye Tessema Tewodros
+            Yacob Yohannas Yonas
+            Zula 
+        }
 
-        last_names = { Selassie Mikael Mariam Melekot Seged Wossen Makonnen Mengitsu Abbaba Dingil Hailu Giorgis }
+        last_names = { Selassie Mikael Mariam Melekot Seged Wossen Makonnen Mengitsu Abbaba Dingil Hailu Giorgis Solomonid
+            #CK2 Ethiopian
+            Abateid Afari Alwa Assabi Astatkeid
+            Bekeleid
+            Dahnay Darod Daw Dengel Desta 
+            Getachew Gideon Gobena
+            Habeshid
+            Kebedeid
+            Marisid Mengesha Merkourios Muqurrid
+            Na'akuelo
+            Pakhoras
+            Ramlid
+            Sabraid Sebsibeid Sehul Selassie Shamumun
+            Tamirat Teka
+            Yostos
+            Zagwe
+        }
     }
     #beta_israeli = {
     #    color = {185 30 160}

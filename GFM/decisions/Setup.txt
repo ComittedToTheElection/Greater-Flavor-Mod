@@ -2344,7 +2344,7 @@ political_decisions = {
 			HAI = {
 				add_country_modifier = { name = credit_risk duration = 5475 }
 				add_country_modifier = { name = divided_society duration = 10950 }
-				treasury = 50000
+				treasury = 500000
 				small_arms = 100
 				canned_food = 200
 				artillery = 50
@@ -2359,11 +2359,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = mulatto
 					}
-					literacy = 0.65
-				}
-				any_owned = {
-					limit = { is_core = HAI }
-					add_province_modifier = { name = baby_boom duration = 3650 }
+					literacy = 0.75
 				}
 				any_owned = {
 					limit = { is_core = DOM }

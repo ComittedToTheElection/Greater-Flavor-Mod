@@ -576,4 +576,92 @@ political_decisions = {
             add_accepted_culture = kreol
         }
     }
+    saint_domingue_rename = {
+        picture = golden_haiti
+        potential = {
+            OR = {
+                AND = {
+                    OR = {
+                        is_culture_group = french
+                        primary_culture = french_canadian
+                        primary_culture = acadian
+                        primary_culture = neo_zelandais
+                        primary_culture = louisianan
+                        primary_culture = cajun
+                        primary_culture = mulatto
+                        primary_culture = afro_french
+                    }
+                    OR = {
+                        AND = { owns = 2214 NOT = { has_global_flag = saint_domingue_renamed } }
+                    }
+                }
+                AND = {
+                    OR = {
+                        is_culture_group = iberian
+                        is_culture_group = latin_american_cultures
+                    }
+                    OR = {
+                        AND = { owns = 2214 NOT = { has_global_flag = santo_domingo_renamed } }
+                    }
+                }
+            }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            ###French/Haitian###
+            random_owned = {
+                limit = {
+                    province_id = 2214
+                    owner = {
+                        OR = {
+                            is_culture_group = french
+                            primary_culture = french_canadian
+                            primary_culture = acadian
+                            primary_culture = neo_zelandais
+                            primary_culture = louisianan
+                            primary_culture = cajun
+                            primary_culture = mulatto
+                            primary_culture = afro_french
+                        }
+                    }
+                }
+                2214 = { change_province_name = "Saint-Domingue" }
+                2216 = { change_province_name = "Saint-Jacques de le Chevaliers" }
+                3309 = { change_province_name = "Hinche" }
+                3558 = { change_province_name = "Saint-Francis de Macoris" }
+                3403 = { change_province_name = "Anse-à-Pitres" }
+                owner = {
+                    set_global_flag = saint_domingue_renamed
+                    clr_global_flag = santo_domingo_renamed
+                }
+            }
+
+            ###Hispanic###
+            random_owned = {
+                limit = {
+                    province_id = 2214
+                    owner = {
+                        OR = {
+                            is_culture_group = iberian
+                            is_culture_group = latin_american_cultures
+                        }
+                    }
+                }
+                2214 = { change_province_name = "Santo Domingo" }
+                2216 = { change_province_name = "Santiago de los Caballeros" }
+                3309 = { change_province_name = "Hincha" }
+                3558 = { change_province_name = "Samaná" }
+                3403 = { change_province_name = "Barahona" }
+                owner = {
+                    set_global_flag = santo_domingo_renamed
+                    clr_global_flag = saint_domingue_renamed
+                }
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
 }

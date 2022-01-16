@@ -5,3 +5,8 @@ add_core = DOM
 trade_goods = tobacco
 terrain = santo_domingo
 life_rating = 35
+state_building = {
+    level = 1
+    building = clipper_shipyard
+    upgrade = yes
+}

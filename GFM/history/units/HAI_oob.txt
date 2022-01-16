@@ -1,10 +1,38 @@
 leader = {
     name = "Jean-Pierre Boyer"
-    date = 1820.1.1
+    picture = jean_boyer
+    date = 1818.1.1
     type = land
-    personality = lackluster
-    background = corrupt
-    prestige = 0.2
+    background = school_of_firepower
+    personality = implacable
+    prestige = 0.5
+}
+
+leader = {
+    name = "Jospeh Courtois"
+    date = 1836.1.1
+    type = land
+    personality = gallant
+    background = generals_aide
+    prestige = 0.1
+}
+
+leader = {
+    name = "Jean-Louis Pierrot"
+    date = 1835.1.1
+    type = land
+    personality = indifferent
+    background = old_school
+    prestige = 0.0
+}
+
+leader = {
+    name = "Faustin Soulounque"
+    date = 1836.1.1
+    type = land
+    personality = stouthearted
+    background = unfit
+    prestige = 0.0
 }
 
 army = {
@@ -12,7 +40,22 @@ army = {
     location = 2215
     regiment = {
         name= "1. Infanterie"
-        type = irregular
+        type = infantry
+        home = 2213
+    }
+    regiment = {
+        name= "2. Dragoon"
+        type = dragoon
+        home = 2213
+    }
+    regiment = {
+        name= "1. Artillery"
+        type = artillery
+        home = 2213
+    }
+    regiment = {
+        name= "2. Artillery"
+        type = artillery
         home = 2213
     }
 }
@@ -28,5 +71,11 @@ navy = {
         type = frigate
 
     }
+
+    ship = {
+        name= "1st Clipper Transport"
+        type = clipper_transport
+    }
+    
 
 }

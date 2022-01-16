@@ -1,5 +1,5 @@
 color = { 0  0  255 }
-graphical_culture = AfricanGC
+graphical_culture = Haitian
 party = {
     name = "HAI_conservative"
     start_date = 1830.1.1

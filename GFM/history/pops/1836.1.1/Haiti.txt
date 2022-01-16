@@ -2,6 +2,18 @@
 #Ruled by Haiti 1836
 #Port au Prince (312000/78000 POPS)
 2213 = {
+    capitalists = {
+        culture = north_german
+        religion = catholic
+        size = 5
+    }
+
+    capitalists = {
+        culture = mulatto
+        religion = catholic
+        size = 20
+    }
+
     aristocrats = {
         culture = mulatto
         religion = catholic
@@ -19,53 +31,72 @@
         religion = catholic
         size = 750
     }
-
+    craftsmen = {
+        culture = afro_antillean
+        religion = catholic
+        size = 250
+    }
     artisans = {
         culture = mulatto
         religion = catholic
-        size = 14050
+        size = 3050
     }
 
-    soldiers = {
+    bureaucrats = {
         culture = mulatto
         religion = catholic
-        size = 3000
+        size = 50
+    }
+    bureaucrats = {
+        culture = afro_french
+        religion = catholic
+        size = 500
+    }
+    soldiers = {
+        culture = afro_french
+        religion = catholic
+        size = 9000
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 400
-    }
-    artisans = {
-        culture = vietnamese
-        religion = catholic
-        size = 1000
-    }
-    clergymen = {
-        culture = croat
-        religion = catholic
-        size = 1000
-    }
-    artisans = {
-        culture = avadhi
-        religion = hindu
-        size = 1000
-    }
-    artisans = {
-        culture = panjabi
-        religion = sunni
-        size = 1000
+        size = 800
     }
     clergymen = {
         culture = irish
         religion = catholic
-        size = 1250
+        size = 12
     }
     farmers = {
         culture = afro_french
         religion = catholic
-        size = 35300
+        size = 50300
+    }
+    artisans = {
+        culture = french_canadian
+        religion = catholic
+        size = 40
+    }
+    farmers = {
+        culture = cajun
+        religion = catholic
+        size = 250
+    }
+    artisans = {
+        culture = mashriqi
+        religion = catholic
+        size = 100
+    }
+    artisans = {
+        culture = mashriqi
+        religion = sunni
+        size = 100
+    }
+    artisans = {
+        culture = persian
+        religion = shiite
+        size = 10
     }
 }
 #Cap Haitien (204000/51000 POPS)
@@ -91,13 +122,17 @@
     soldiers = {
         culture = mulatto
         religion = catholic
-        size = 1000
+        size = 3000
     }
-
+    farmers = {
+        culture = cajun
+        religion = catholic
+        size = 250
+    }
     farmers = {
         culture = afro_french
         religion = catholic
-        size = 14825
+        size = 34825
     }
 
 }
@@ -122,6 +157,7 @@
         size = 550
     }
 }
+#Hinche
 3309 = {
     clergymen = {
         culture = mulatto
@@ -140,7 +176,8 @@
         religion = catholic
         size = 550
     }
-        aristocrats = {
+
+    aristocrats = {
         culture = afro_french
         religion = catholic
         size = 550
@@ -194,6 +231,7 @@
         size = 2500
     }
 }
+#Jacmel
 3319 = {
     aristocrats = {
         culture = mulatto
@@ -212,7 +250,11 @@
         religion = catholic
         size = 2550
     }
-
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 200
+    }
     soldiers = {
         culture = mulatto
         religion = catholic
@@ -226,6 +268,7 @@
     }
 
 }
+#Jeremie/Aux-Cayes/Les-Cayes
 3320 = {
     aristocrats = {
         culture = mulatto
@@ -250,16 +293,76 @@
         religion = catholic
         size = 200
     }
-
+    farmers = {
+        culture = amhara
+        religion = coptic
+        size = 90
+    }
+    farmers = {
+        culture = armenian
+        religion = coptic
+        size = 11
+    }
     farmers = {
         culture = afro_french
         religion = catholic
-        size = 9525
+        size = 19525
     }
     farmers = {
         culture = mulatto
         religion = catholic
-        size = 3925
+        size = 2925
+    }
+
+    farmers = {
+        culture = bakongo
+        religion = animist
+        size = 15
+    }
+    farmers = {
+        culture = native_american_minor
+        religion = animist
+        size = 25
+    }
+}
+#Gonaives
+3557 = {
+    aristocrats = {
+        culture = mulatto
+        religion = catholic
+        size = 550
+    }
+
+    clergymen = {
+        culture = mulatto
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = mulatto
+        religion = catholic
+        size = 1550
+    }
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 200
+    }
+    soldiers = {
+        culture = mulatto
+        religion = catholic
+        size = 200
+    }
+    farmers = {
+        culture = afro_american
+        religion = catholic
+        size = 2650
+    }
+    farmers = {
+        culture = afro_french
+        religion = catholic
+        size = 9425
     }
 
 }

@@ -2242,3 +2242,6 @@ national_territories_chaco_title;The $YEAR$ National Territories Law: The Chaco;
 national_territories_chaco_desc;Law No. 1532 of National Territories enacted on October 16, 1884, which created the jurisdictions of all the national territories of the country, established the division of the national territory of the Gran Chaco, into two national territories or governorates: National Territory of Formosa and National Territory of the Chaco.\n§YNOTE: This will turn all your holdings in the Chaco into colonies, and will therefore erase any effects.§W;;;;;;;;;;;;; 
 national_territory_puna_title;The National Territory of the Andes;;;;;;;;;;;;; 
 national_territory_puna_desc;The National Territory of the Andes will be included within the proposed lines for the definitive demarcation of boundaries between Chile and the Argentine Republic in the Puna de Atacama, with its capital on the town of San Antonio de los Cobres, and divided along four departments.\n§YNOTE: This will turn all your holdings in the Puna into colonies, and will therefore erase any effects.§W;;;;;;;;;;;;; 
+saint_domingue_rename_title;
+saint_domingue_rename_desc;Rename Santo Domingo;;;;;;;;;;;;;
+saint_domingue_rename_title;Santo Domingo is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;
