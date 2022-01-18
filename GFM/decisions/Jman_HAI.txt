@@ -1,118 +1,203 @@
 political_decisions = {
+    #Foriegn Decisions on Haiti#
+    HAI_debt = {
+        picture = golden_haiti
+        potential = {
+            HAI = { exists = yes }
+            NOT = {
+                OR = {
+                    has_global_flag = HAI_victory
+                    has_country_modifier = HAI_debt
+                }
+            }
+        }
+        allow = {
+            war = no
+        }
+        effect = { 
+            country_event = { id = 45106 days = 3 }
+        }
+    }
+    end_HAI_blockade = {
+        picture = golden_haiti
+        potential = {
+            HAI = { exists = yes }
+            OR = {
+                tag = US2
+                tag = USA
+            }
+            HAI = {
+                has_country_modifier = US_blockade
+            }
+        }
+        allow = {
+            slavery = no_slavery
+        }
+        effect = {
+            badboy = -2.5
+            prestige = 5
+            HAI = {
+                remove_country_modifier = US_blockade
+            }
+        }
+    }
+    GER_HAI_mission = {
+        pitcure = german_HAI
+        potential = {
+            HAI = { exists = yes }
+            HAI = { is_greater_power = no }
+            tag = GER
+            is_greater_power = yes
+        }
+        allow = {
+            total_amount_of_ships = 100
+        }
+        effect = {
+            country_event = { id = 45111 days = 3 }
+        }
+    }
+    #Coutrois's Reform
+    courtios_reforms = {
+        pitcure = founding_fathers
+        potential = {
+            tag = HAI
+            NOT = {
+                OR = {
+                    has_country_modifier = courtios_reforms
+                    has_country_modifier = HAI_reforming
+                }
+            }
+            OR = {
+                ruling_party_ideology = socialist
+                ruling_party_ideology = communist
+            }
+        }
+        allow = {
+            state_n_government = 1
+        }
+        effect = {
+            set_country_flag = courtios_reforms
+            country_event = { id = 45111 days = 1826 }
+            add_country_modifier = {
+                name = HAI_reforming
+                duration = 1825
+            }
+        }
+    }
     ### Colonial Rebelions ###
     #Quebec
-    QUE_revolt = {
-        picture = vive_le_quebec
-        potential = {
-            ai = no
-            tag = HAI
-            58 = { owned_by = ENG }
-            OR = {
-                is_greater_power = yes
-                is_secondary_power = yes
-            }
-            NOT = {
-                exists = QUE
-                has_country_flag = QUE_revolt
-            }
-            has_recently_lost_war = no
-            total_amount_of_ships = 10
-            NOT = { relation = { who = ENG value = 0 } }
-        }
-        allow = {
-            money = 75000
-            58 = { pop_militancy = 4 }
-            NOT = { alliance_with = ENG }
-        }
-        effect = {
-            set_country_flag = QUE_revolt
-            money = -75000
-            ENG = {
-                release = QUE
-                war = {
-                    target = QUE
-                    attacker_goal = { casus_belli = civil_war }
-                    defender_goal = { casus_belli = status_quo }
-                }
-            }
-            create_alliance = QUE
-            QUE = {
-                capital_scope = {
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = cavalry value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                }
-            }
-            relation = { who = ENG value = -200 }
-        }
-    }
-    #Afro Americans
-    NAF_revolt = {
-        picture = black_belt
-        potential = {
-            tag = HAI
-            ai = no
-            NOT = {
-                exists = NAF
-                has_country_flag = NAF_revolt
-            }
-            OR = {
-                is_greater_power = yes
-                is_secondary_power = yes
-            }
-            has_recently_lost_war = no
-            total_amount_of_ships = 10
-            NOT = { relation = { who = USA value = 0 } }
-			NOT = { relation = { who = US2 value = 0 } }
-			NOT = { NAF = { all_core = { owned_by = THIS } } }
-        }
-        allow = {
-            money = 75000
-            OR = { USA = { average_militancy = 4 } US2 = { average_militancy = 4 } }
-            NOT = { alliance_with = USA }
-			NOT = { alliance_with = US2 }
-        }
-        effect = {
-            set_country_flag = NAF_revolt
-            money = -75000
-            random_country = {
-				limit = {
-					OR = { tag = USA tag = US2 }
-					exists = yes
-				}
-				release = NAF
-                war = {
-                    target = NAF
-                    attacker_goal = { casus_belli = civil_war }
-                    defender_goal = { casus_belli = status_quo }
-                }
-			}
-            create_alliance = NAF
-            NAF = {
-                capital_scope = {
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = infantry value = current }
-                    sub_unit = { type = cavalry value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                    sub_unit = { type = artillery value = current }
-                }
-            }
-            relation = { who = USA value = -200 }
-			relation = { who = US2 value = -200 }
-        }
-    }
+    #QUE_revolt = {
+    #    picture = vive_le_quebec
+    #    potential = {
+    #        ai = no
+    #        tag = HAI
+    #        58 = { owned_by = ENG }
+    #        OR = {
+    #            is_greater_power = yes
+    #            is_secondary_power = yes
+    #        }
+    #        NOT = {
+    #            exists = QUE
+    #            has_country_flag = QUE_revolt
+    #        }
+    #        has_recently_lost_war = no
+    #        total_amount_of_ships = 10
+    #        NOT = { relation = { who = ENG value = 0 } }
+    #    }
+    #    allow = {
+    #        money = 75000
+    #        58 = { pop_militancy = 4 }
+    #        NOT = { alliance_with = ENG }
+    #    }
+    #    effect = {
+    #        set_country_flag = QUE_revolt
+    #        money = -75000
+    #        ENG = {
+    #            release = QUE
+    #            war = {
+    #                target = QUE
+    #                attacker_goal = { casus_belli = civil_war }
+    #                defender_goal = { casus_belli = status_quo }
+    #            }
+    #        }
+    #        create_alliance = QUE
+    #        QUE = {
+    #            capital_scope = {
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = cavalry value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #            }
+    #        }
+    #        relation = { who = ENG value = -200 }
+    #    }
+    #}
+    ##Afro Americans
+    #NAF_revolt = {
+    #    picture = black_belt
+    #    potential = {
+    #        tag = HAI
+    #        ai = no
+    #        NOT = {
+    #            exists = NAF
+    #            has_country_flag = NAF_revolt
+    #        }
+    #        OR = {
+    #            is_greater_power = yes
+    #            is_secondary_power = yes
+    #        }
+    #        has_recently_lost_war = no
+    #        total_amount_of_ships = 10
+    #        NOT = { relation = { who = USA value = 0 } }
+	#		NOT = { relation = { who = US2 value = 0 } }
+	#		NOT = { NAF = { all_core = { owned_by = THIS } } }
+    #    }
+    #    allow = {
+    #        money = 75000
+    #        OR = { USA = { average_militancy = 4 } US2 = { average_militancy = 4 } }
+    #        NOT = { alliance_with = USA }
+	#		NOT = { alliance_with = US2 }
+    #    }
+    #    effect = {
+    #        set_country_flag = NAF_revolt
+    #        money = -75000
+    #        random_country = {
+	#			limit = {
+	#				OR = { tag = USA tag = US2 }
+	#				exists = yes
+	#			}
+	#			release = NAF
+    #            war = {
+    #                target = NAF
+    #                attacker_goal = { casus_belli = civil_war }
+    #                defender_goal = { casus_belli = status_quo }
+    #            }
+	#		}
+    #        create_alliance = NAF
+    #        NAF = {
+    #            capital_scope = {
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = infantry value = current }
+    #                sub_unit = { type = cavalry value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #                sub_unit = { type = artillery value = current }
+    #            }
+    #        }
+    #        relation = { who = USA value = -200 }
+	#		relation = { who = US2 value = -200 }
+    #    }
+    #}
     ### Unoffical Claims ###
     #Antilles
     claim_glp_mtq = {
@@ -221,82 +306,82 @@ political_decisions = {
 			relation = { who = US2 value = -200 }
         }
     }
-    create_new_poland = {
-        picture = become_poland
-        potential = {
-            tag = HAI
-            ai = no #don't change this Jman!!!!!!
-            has_country_flag = DOM_revolt
-            NOT = { has_country_flag = create_new_poland }
-        }
-        allow = {
-            owns = 2214
-        }
-        effect = {
-            set_country_flag = create_new_poland
-            any_pop = {
-                limit = {
-                    has_pop_culture = caribeno
-                }
-                move_pop = 2209
-            }
-            RUS = {
-                any_pop = {
-                    limit = {
-                        culture = polish
-                        type = serfs
-                    }
-                    move_pop = 2214
-                }
-                any_pop = {
-                    limit = {
-                        culture = polish
-                        type = artisans
-                    }
-                    move_pop = 3403
-                }
-                any_pop = {
-                    limit = {
-                        culture = polish
-                        type = clergymen
-                    }
-                    move_pop = 2216
-                }
-            }
-            AUS = {
-                any_pop = {
-                    limit = {
-                        culture = polish
-                        type = serfs
-                    }
-                    move_pop = 2214
-                }
-            }
-            DOM = {
-                all_core = {
-                    add_core = PLG
-                }
-            }
-        }
-    }
+    #create_new_poland = {
+    #    picture = become_poland
+    #    potential = {
+    #        tag = HAI
+    #        ai = no #don't change this Jman!!!!!!
+    #        has_country_flag = DOM_revolt
+    #        NOT = { has_country_flag = create_new_poland }
+    #    }
+    #    allow = {
+    #        owns = 2214
+    #    }
+    #    effect = {
+    #        set_country_flag = create_new_poland
+    #        any_pop = {
+    #            limit = {
+    #                has_pop_culture = caribeno
+    #            }
+    #            move_pop = 2209
+    #        }
+    #        RUS = {
+    #            any_pop = {
+    #                limit = {
+    #                    culture = polish
+    #                    type = serfs
+    #                }
+    #                move_pop = 2214
+    #            }
+    #            any_pop = {
+    #                limit = {
+    #                    culture = polish
+    #                    type = artisans
+    #                }
+    #                move_pop = 3403
+    #            }
+    #            any_pop = {
+    #                limit = {
+    #                    culture = polish
+    #                    type = clergymen
+    #                }
+    #                move_pop = 2216
+    #            }
+    #        }
+    #        AUS = {
+    #            any_pop = {
+    #                limit = {
+    #                    culture = polish
+    #                    type = serfs
+    #                }
+    #                move_pop = 2214
+    #            }
+    #        }
+    #        DOM = {
+    #            all_core = {
+    #                add_core = PLG
+    #            }
+    #        }
+    #    }
+    #}
     ### Internal Politics ###
-    form_national_guard = {
-        picture = force_publique
-        potential = {
-            tag = HAI
-            NOT = { has_country_flag = form_national_guard }
-        }
-        allow = {
-            money = 100000
-            military_staff_system = 1
-        }
-        effect = {
-            money = -100000
-            set_country_flag = form_national_guard
-            conscription = mandatory_service
-            add_country_modifier = { name = liberte_or_mort duration = -1 }
-        }
-    }
+    #form_national_guard = {
+    #    picture = force_publique
+    #    potential = {
+    #        tag = HAI
+    #        NOT = { has_country_flag = form_national_guard }
+    #    }
+    #    allow = {
+    #        money = 100000
+    #        military_staff_system = 1
+    #    }
+    #    effect = {
+    #        money = -100000
+    #        set_country_flag = form_national_guard
+    #        conscription = mandatory_service
+    #        add_country_modifier = { name = liberte_or_mort duration = -1 }
+    #    }
+    #}
     #mobilize_guard = {
     #    picture = force_publique
     #    potential = {
@@ -356,175 +441,175 @@ political_decisions = {
             }
         }
     }
-    wealth_distribution = {
-        picture = embrace_minority
-        potential = {
-			ai = no
-            tag = HAI
-            NOT = { has_country_modifier = law_changed_by_force }
-			NOT = { has_country_flag = wealth_distribution_used }
-        }
-        allow = {
-            money = 300000
-        }
-        effect = {
-			set_country_flag = wealth_distribution_used
-            add_country_modifier = { name = law_changed_by_force duration = 3650 }
-            any_pop = {
-			    militancy = -10
-			}
-            add_country_modifier = { name = total_reform duration = 3650 }
-            add_country_modifier = { name = global_baby_boom duration = 3650 }
-			money = -275000
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = middle
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = middle
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = middle
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = middle
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = poor
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = middle
-                }
-                money = 2500
-            }
-            random_pop = {
-                limit = {
-                    NOT = { cash_reserves = 500 }
-                    strata = middle
-                }
-                money = 2500
-            }
-        }
-    }
+    #wealth_distribution = {
+    #    picture = embrace_minority
+    #    potential = {
+	#		ai = no
+    #        tag = HAI
+    #        NOT = { has_country_modifier = law_changed_by_force }
+	#		NOT = { has_country_flag = wealth_distribution_used }
+    #    }
+    #    allow = {
+    #        money = 300000
+    #    }
+    #    effect = {
+	#		set_country_flag = wealth_distribution_used
+    #        add_country_modifier = { name = law_changed_by_force duration = 3650 }
+    #        any_pop = {
+	#		    militancy = -10
+	#		}
+    #        add_country_modifier = { name = total_reform duration = 3650 }
+    #        add_country_modifier = { name = global_baby_boom duration = 3650 }
+	#		money = -275000
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = middle
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = middle
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = middle
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = middle
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = poor
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = middle
+    #            }
+    #            money = 2500
+    #        }
+    #        random_pop = {
+    #            limit = {
+    #                NOT = { cash_reserves = 500 }
+    #                strata = middle
+    #            }
+    #            money = 2500
+    #        }
+    #    }
+    #}
     ### Pan Africanism ###
     found_libreville = {
         picture = map_gabon
@@ -630,10 +715,10 @@ political_decisions = {
                     }
                 }
                 2214 = { change_province_name = "Saint-Domingue" }
-                2216 = { change_province_name = "Saint-Jacques de le Chevaliers" }
+                2216 = { change_province_name = "Saint-Jacques" } #Saint-Jacques de le Chevaliers
                 3309 = { change_province_name = "Hinche" }
-                3558 = { change_province_name = "Saint-Francis de Macoris" }
-                3403 = { change_province_name = "Anse-à-Pitres" }
+                3558 = { change_province_name = "Saint-Francis" } #Saint-Francis de Macoris
+                3403 = { change_province_name = "Anse-ï¿½-Pitres" }
                 owner = {
                     set_global_flag = saint_domingue_renamed
                     clr_global_flag = santo_domingo_renamed
@@ -652,9 +737,9 @@ political_decisions = {
                     }
                 }
                 2214 = { change_province_name = "Santo Domingo" }
-                2216 = { change_province_name = "Santiago de los Caballeros" }
+                2216 = { change_province_name = "Santiago" }#Santiago de los Caballeros
                 3309 = { change_province_name = "Hincha" }
-                3558 = { change_province_name = "Samaná" }
+                3558 = { change_province_name = "Samanï¿½" }
                 3403 = { change_province_name = "Barahona" }
                 owner = {
                     set_global_flag = santo_domingo_renamed

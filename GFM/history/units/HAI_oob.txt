@@ -62,7 +62,7 @@ army = {
 
 navy = {
 
-    name = "Navy of Haiti"
+    name = "Navy of Haiti" 
     location = 2213
     ship = {
 
@@ -71,7 +71,13 @@ navy = {
         type = frigate
 
     }
+    ship = {
 
+        name= "Félicité"
+
+        type = frigate
+
+    }
     ship = {
         name= "1st Clipper Transport"
         type = clipper_transport

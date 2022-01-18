@@ -2352,8 +2352,7 @@ political_decisions = {
 				wine = 50
 				liquor = 50
 				ammunition = 100
-				money = 3000
-				country_event = { id = 45106 days = 3 }
+				#country_event = { id = 45106 days = 3 }
 				any_pop = { limit = { has_pop_culture = afro_french } reduce_pop = 1.05 }
 				any_pop = {
 					limit = {
