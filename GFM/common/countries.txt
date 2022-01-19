@@ -131,7 +131,7 @@ BKY        = "countries/Bukey Horde.txt"
 HRT        = "countries/Herat.txt"
 PAC        ="countries/Pacifica.txt"
 QAS        ="countries/Qashqai.txt"
-PLG        ="countries/Nouvelle Pologne.txt"
+#PLG        ="countries/Nouvelle Pologne.txt"
 SZK        ="countries/Szeklerland.txt"
 SSS        ="countries/Small Swords Society.txt"
 RIG        ="countries/Independent Guiana.txt"
@@ -149,6 +149,7 @@ CNR        ="countries/Canaria.txt"
 HNZ        ="countries/Hunza-Nagar.txt"
 VNR        ="countries/Venezuela Revolt.txt"
 PCF        ="countries/Pacifika.txt"
+HAT        ="countries/Kingdom of Haiti.txt"
 
 ###GFM Meta-Tags###
 
