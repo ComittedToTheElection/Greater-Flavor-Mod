@@ -3,6 +3,8 @@ political_decisions = {
     HAI_debt = {
         picture = golden_haiti
         potential = {
+            primary_culture = french
+            is_greater_power = yes
             HAI = { exists = yes }
             NOT = {
                 OR = {

@@ -3838,7 +3838,7 @@ pearl_of_haiti = {
     middle_income_modifier = 3
     rich_income_modifier = 5
     local_RGO_output = 0.25
-    population_growth = 0.01
+    population_growth = 0.001
 }
 ### Neutrality ###
 neutrality = {
