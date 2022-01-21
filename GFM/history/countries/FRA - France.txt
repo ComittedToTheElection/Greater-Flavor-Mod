@@ -117,9 +117,15 @@ foreign_investment = {
     PAP = 15000
     SAR = 10000
     BEL = 20000
-    HAI = 25000
 }
 
-govt_flag = { government = absolute_monarchy flag = theocracy }
-govt_flag = { government = prussian_constitutionalism flag = theocracy }
-govt_flag = { government = hms_government flag = theocracy }
+govt_flag = { 
+	government = absolute_monarchy 
+	flag = theocracy 
+	
+	government = prussian_constitutionalism 
+	flag = theocracy
+	
+	government = hms_government 
+	flag = theocracy
+}

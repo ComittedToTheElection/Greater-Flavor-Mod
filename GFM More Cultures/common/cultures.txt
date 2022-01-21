@@ -7444,6 +7444,27 @@ native_american = {
         last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
         }
     }
+	maliseet = {
+        color = {250 118 225}
+        first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+        }
+        last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+        }
+    }
+	western_abenaki = {
+        color = {30 180 140}
+        first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+        }
+        last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+        }
+    }
+	eastern_abenaki = {
+        color = {30 220 180}
+        first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+        }
+        last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+        }
+    }
 	
 	####Mexico####
 	
