@@ -1,4 +1,4 @@
-color = { 0  0  255 }
+color = { 213 0 39 }
 graphical_culture = Haitian
 party = {
     name = "HAI_conservative"
