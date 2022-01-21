@@ -771,7 +771,7 @@ political_decisions = {
                 2216 = { change_province_name = "Saint-Jacques" } #Saint-Jacques de le Chevaliers
                 3309 = { change_province_name = "Hinche" }
                 3558 = { change_province_name = "Saint-Francis" } #Saint-Francis de Macoris
-                3403 = { change_province_name = "Anse-?-Pitres" }
+                3403 = { change_province_name = "Anse-à-Pitres" }
                 owner = {
                     set_global_flag = saint_domingue_renamed
                     clr_global_flag = santo_domingo_renamed
