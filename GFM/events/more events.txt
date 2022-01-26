@@ -2639,3 +2639,17 @@ country_event = { ####Hungary notify of partition
         }
     }
 }
+
+country_event = { 
+	id = 9677231
+	title = "EVTNAME9677231"
+	desc = "EVTDESC9677231"
+	picture = "pacific_islands"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = "We are thankful for their commitment to our defense!"
+		prestige = 5 
+	}
+}

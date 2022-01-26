@@ -2326,10 +2326,9 @@ political_decisions = {
 				alliance_with = THIS 
 				all_core = { owned_by = PHL }
 			} 
-			any_owned_province = { 
-				province_id = 3260
-				province_id = 2589
-				province_id = 1678
+				owns = 3260
+				owns = 2589
+				owns = 1678
 			} 
 			NOT = { has_global_flag = ceded_pacific_islands_to_philippines } 
 		}
@@ -2343,16 +2342,18 @@ political_decisions = {
 			badboy = -1
 			any_owned = { 
 				limit = { 
-					province_id = 3260
-					province_id = 2589
-					province_id = 1678
+					OR = { 
+						province_id = 3260
+						province_id = 2589
+						province_id = 1678
+					} 	
 				}
 				secede_province = PHL 
 				remove_core = THIS 
 				add_core = PHL 
 			}
 			PHL = { 
-				country_event = { id = 96772311 } 
+				country_event = { id = 9677231 } 
 			}
 			set_global_flag = ceded_pacific_islands_to_philippines
 		}
