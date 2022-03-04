@@ -787,18 +787,18 @@ float4 PixelShader_Map2_0_General( VS_MAP_OUTPUT v ) : COLOR
 {
 	
 	//The map is a flat plane with normal in the y direction. This is always the truth. Thus the TBN Matrix is always as follows:
-	float3x3 WorldMat3 = float3x3(WorldMatrix._11_12_13, WorldMatrix._21_22_23, WorldMatrix._31_32_33);
-	float3 T = normalize(mul(WorldMat3, float3(1, 0, 0)));
-	float3 B = normalize(mul(WorldMat3, float3(0, 0, 1)));
-	float3 N = normalize(mul(WorldMat3, float3(0, 1, 0)));
-	float3x3 TBN = transpose(float3x3(T, B, N));
+	//float3x3 WorldMat3 = float3x3(WorldMatrix._11_12_13, WorldMatrix._21_22_23, WorldMatrix._31_32_33);
+	//float3 T = normalize(mul(WorldMat3, float3(1, 0, 0)));
+	//float3 B = normalize(mul(WorldMat3, float3(0, 0, 1)));
+	//float3 N = normalize(mul(WorldMat3, float3(0, 1, 0)));
+	//float3x3 TBN = transpose(float3x3(T, B, N));
 	
-	float3 TanLightPos = mul(TBN, float3(0.7, 0.7, 0.2));
-	float3 TanViewPos = mul(TBN, CameraPosition);
-	float3 TanFragPos = mul(TBN, v.vPosTex);
+	//float3 TanLightPos = mul(TBN, float3(0.7, 0.7, 0.2));
+	//float3 TanViewPos = mul(TBN, CameraPosition);
+	//float3 TanFragPos = mul(TBN, v.vPosTex);
 	
-	float3 viewDir = TanViewPos - TanFragPos;
-	float3 lightDir = TanLightPos - TanFragPos;
+	//float3 viewDir = TanViewPos - TanFragPos;
+	//float3 lightDir = TanLightPos - TanFragPos;
 	
     TILE_STRUCT s;
     s.vTexCoord1 = v.vTexCoord1;
@@ -806,8 +806,8 @@ float4 PixelShader_Map2_0_General( VS_MAP_OUTPUT v ) : COLOR
     s.vTerrainIndexColor = v.vTerrainIndexColor;
     s.vTexCoord0 = v.vTexCoord0.xy;
 	
-	s = ParallaxMapping( s, viewDir );
-	float penumbraFactor = SelfShadow( s, lightDir, viewDir );
+	//s = ParallaxMapping( s, viewDir );
+	//float penumbraFactor = SelfShadow( s, lightDir, viewDir );
 	
 
     float4 TerrainColor = GenerateTiles( s );
@@ -827,7 +827,7 @@ float4 PixelShader_Map2_0_General( VS_MAP_OUTPUT v ) : COLOR
 	
 	Color.rgb = lerp(TerrainColor.rgb, Color.rgb, 0.3);
 	Color.rgb *= COLOR_LIGHTNESS;
-	Color.rgb *= (1.0 - penumbraFactor/1.6);
+	//Color.rgb *= (1.0 - penumbraFactor/1.6);
 	
 	return Color;
 }
@@ -876,18 +876,18 @@ float4 PixelShader_Map2_0( VS_MAP_OUTPUT v ) : COLOR
 {
 
 	//The map is a flat plane with normal in the y direction. This is always the truth. Thus the TBN Matrix is always as follows:
-	float3x3 WorldMat3 = float3x3(WorldMatrix._11_12_13, WorldMatrix._21_22_23, WorldMatrix._31_32_33);
-	float3 T = normalize(mul(WorldMat3, float3(1, 0, 0)));
-	float3 B = normalize(mul(WorldMat3, float3(0, 0, 1)));
-	float3 N = normalize(mul(WorldMat3, float3(0, 1, 0)));
-	float3x3 TBN = transpose(float3x3(T, B, N));
+	//float3x3 WorldMat3 = float3x3(WorldMatrix._11_12_13, WorldMatrix._21_22_23, WorldMatrix._31_32_33);
+	//float3 T = normalize(mul(WorldMat3, float3(1, 0, 0)));
+	//float3 B = normalize(mul(WorldMat3, float3(0, 0, 1)));
+	//float3 N = normalize(mul(WorldMat3, float3(0, 1, 0)));
+	//float3x3 TBN = transpose(float3x3(T, B, N));
 	
-	float3 TanLightPos = mul(TBN, float3(0.7, 0.7, 0.2));
-	float3 TanViewPos = mul(TBN, CameraPosition);
-	float3 TanFragPos = mul(TBN, v.vPosTex);
+	//float3 TanLightPos = mul(TBN, float3(0.7, 0.7, 0.2));
+	//float3 TanViewPos = mul(TBN, CameraPosition);
+	//float3 TanFragPos = mul(TBN, v.vPosTex);
 	
-	float3 viewDir = TanViewPos - TanFragPos;
-	float3 lightDir = TanLightPos - TanFragPos;
+	//float3 viewDir = TanViewPos - TanFragPos;
+	//float3 lightDir = TanLightPos - TanFragPos;
 	
     TILE_STRUCT s;
     s.vTexCoord1 = v.vTexCoord1;
@@ -895,8 +895,8 @@ float4 PixelShader_Map2_0( VS_MAP_OUTPUT v ) : COLOR
     s.vTerrainIndexColor = v.vTerrainIndexColor;
     s.vTexCoord0 = v.vTexCoord0.xy;
 	
-	s = ParallaxMapping( s, viewDir );
-	float penumbraFactor = SelfShadow( s, lightDir, viewDir );
+	//s = ParallaxMapping( s, viewDir );
+	//float penumbraFactor = SelfShadow( s, lightDir, viewDir );
 
     float4 OutColor = GenerateTiles( s );
 	OutColor.rgb *= LIGHTNESS;
@@ -915,7 +915,7 @@ float4 PixelShader_Map2_0( VS_MAP_OUTPUT v ) : COLOR
 	//OutColor.rgb *= lerp(0.4, 1.0, FogColor.r);
 	OutColor.rgb = ApplyFOWColor( OutColor.rgb, FogColor.r);
 	OutColor.rgb += FogColor.g;
-	OutColor.rgb *= (1.0 - penumbraFactor/1.5);
+	//OutColor.rgb *= (1.0 - penumbraFactor/1.5);
 	///////////////////
 	
 	return OutColor;
