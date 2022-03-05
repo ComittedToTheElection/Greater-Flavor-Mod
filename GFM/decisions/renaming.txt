@@ -1060,7 +1060,6 @@ political_decisions = {
 				owner = {
 					767 = { change_province_name = "Marburg" }
 					clr_global_flag = slovene_renamed_maribor
-					clr_global_flag = hungarian_renamed_maribor
 				}
 			}
 			random_owned = {
@@ -1080,8 +1079,8 @@ political_decisions = {
 						change_province_name = "Laibach"
 						state_scope = { change_region_name = "Krain" }
 					}
-					clr_global_flag = slovene_renamed_muraszombat
-					clr_global_flag = hungarian_renamed_muraszombat
+					clr_global_flag = slovene_renamed_ljubljana
+					clr_global_flag = italian_renamed_ljubljana
 				}
 			}
 			random_owned = {
@@ -6499,6 +6498,7 @@ political_decisions = {
             random_owned = {
                 limit = {
 					owner = {
+						primary_culture = greek
 						owns = 824
 						NOT = { has_global_flag = greek_rename_epirus_824 }
 					}
@@ -6513,6 +6513,7 @@ political_decisions = {
             random_owned = {
                 limit = {
 					owner = {
+						primary_culture = greek
 						owns = 853
 						NOT = { has_global_flag = greek_rename_epirus_853 }
 					}
@@ -6527,6 +6528,7 @@ political_decisions = {
             random_owned = {
                 limit = {
 					owner = {
+						primary_culture = albanian
 						owns = 824
 						NOT = { has_global_flag = albanian_rename_epirus_824 }
 					}
@@ -6541,6 +6543,7 @@ political_decisions = {
             random_owned = {
                 limit = {
 					owner = {
+						primary_culture = albanian
 						owns = 853
 						NOT = { has_global_flag = albanian_rename_epirus_853 }
 					}
@@ -6555,6 +6558,7 @@ political_decisions = {
             random_owned = {
                 limit = {
 					owner = {
+						primary_culture = turkish
 						owns = 824
 						OR = {
 							has_global_flag = albanian_rename_epirus_824
@@ -6572,6 +6576,7 @@ political_decisions = {
             random_owned = {
                 limit = {
 					owner = {
+						primary_culture = turkish
 						owns = 853
 						OR = {
 							has_global_flag = albanian_rename_epirus_853
